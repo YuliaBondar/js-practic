@@ -5,7 +5,7 @@ class Vehicle{
     }
     drive(){
         console.log(`The ${this.brand} ${this.model} is traveling.`);
-        console.log("drive a car");
+        console.log("drive a car car car");
     }
 }
 
@@ -31,14 +31,9 @@ class Bike extends Vehicle{
         console.log("long");
     }
 }
-
 let MyCar = new Car("Toyota","Camry", "red" );
 MyCar.drive();
 MyCar.honk();
 
-
-let MyBike = new Bike("Ttt", "t3", "moped");
-MyBike.drive();
-MyBike.ringBell();
 
 
